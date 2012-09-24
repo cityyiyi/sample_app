@@ -15,6 +15,10 @@ end
 
 group :test do
 	gem 'rspec', '2.4'
+	gem 'spork'
+	gem 'webrat'
+  	gem 'guard-rspec', :require => false
+  	gem 'guard-spork', :require => false
 end
 
 gem 'json'
